@@ -2,24 +2,25 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def saludar(request):
-    return HttpResponse("Holaaaaaaaaaaaaaaaaaaaaaaaa")
+    return HttpResponse("<h1> Holaaaaaaaaaaaaaaaaaaaaaaaa </h1> ")
 
 
 def cocinero(request):
-     return HttpResponse("Holaaaaaaaaaaaaaaaaaaaaaaaa cocinero")
+     return HttpResponse("<h1> Holaaaaaaaaaaaaaaaaaaaaaaaa cocinero </h1> ")
 
 
 def perro(request):
-    return HttpResponse("Holaaaaaaaaaaaaaaaaaaaaaaaa perro")
+    return HttpResponse("<h1> Holaaaaaaaaaaaaaaaaaaaaaaaa perro </h1> ")
 
 
 def gato(request):
-     return HttpResponse("Holaaaaaaaaaaaaaaaaaaaaaaaa gato")
+     return HttpResponse("<h1> Holaaaaaaaaaaaaaaaaaaaaaaaa gato </h1> ")
 
 
 def loro(request):
-    return HttpResponse("Holaaaaaaaaaaaaaaaaaaaaaaaa loro")
+    return HttpResponse("<h1> Holaaaaaaaaaaaaaaaaaaaaaaaa loro </h1> ")
 
 
 def tiburon(request):
-     return HttpResponse("Holaaaaaaaaaaaaaaaaaaaaaaaa tiburon")
+     return HttpResponse("<h1> Holaaaaaaaaaaaaaaaaaaaaaaaa tiburon </h1> ")
+
