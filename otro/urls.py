@@ -20,4 +20,10 @@ from miappotro.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', saludar),
+    path('Cocinero/new', cocinero),
+    path('perro/new', perro),
+    path('gato/new', gato),
+    path('loro/new', loro),
+    path('tiburon/new', tiburon),
+
 ]
